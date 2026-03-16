@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Sobha MD Intelligence",
+    "slug": "sobha-md-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#18181b"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.sobha.mdintelligence",
+      "adaptiveIcon": {
+        "backgroundColor": "#18181b",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "417c2bc5-5ddb-4d75-b745-d7deeb59047b"
+      }
+    },
+    "owner": "jatin0129",
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
